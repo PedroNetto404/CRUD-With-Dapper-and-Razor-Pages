@@ -5,7 +5,7 @@ using ProjetoRazorBKBank.Models.Responses;
 
 namespace ProjetoRazorBKBank.Data
 {
-    public class DbSession
+    public abstract class DbSession
     {
         protected readonly IDbConnection connection;
 
